@@ -28,6 +28,7 @@ class MyApp extends StatelessWidget {
                   //     '&', // karakter untk replace karakter inputan (1 karakter)
                   keyboardType: TextInputType.phone,
                   readOnly: false,
+                  maxLength: 50,
                 ),
               ],
             ),
